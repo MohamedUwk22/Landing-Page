@@ -19,7 +19,7 @@ const Navbar = () => {
           
         </div>
         <div className="flex items-center gap-4">
-          <Button variant="dark">Get Started Free</Button>
+          <Button className='hidden md:block text-sm' variant="dark">Get Started Free</Button>
           <Link to="/login" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors px-2">
              Login
            </Link>
