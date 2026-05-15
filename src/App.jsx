@@ -5,12 +5,9 @@ import Login from './assets/Layouts/Login';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Landing-Page">
       <Routes>
-        {/* الصفحة الرئيسية للـ Landing Page */}
-        <Route path="/" element={<LuminaLandingPage />} />
-        
-        {/* صفحة الـ Login المنفصلة */}
+        <Route path="/" element={<LuminaLandingPage />} />        
         <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
